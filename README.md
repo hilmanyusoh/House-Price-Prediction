@@ -21,9 +21,20 @@ This project uses Machine Learning to predict house prices in the United States.
 - Checked for missing values (`null`) and cleaned the data
 
 ### 2. Model Building
-- Split data into training and testing sets
-- Used `DecisionTreeRegressor` from Scikit-learn
-- Tuned model using parameters such as `max_depth`, `random_state`, etc.
+
+We implemented **two regression models** to compare performance:
+
+#### a. Decision Tree Regressor
+- Algorithm: `DecisionTreeRegressor` (Scikit-learn)
+- Simple and interpretable model
+- Tunable parameters: `max_depth`, `min_samples_split`, etc.
+
+#### b. Linear Regression
+- Algorithm: `LinearRegression` (Scikit-learn)
+- Assumes linear relationship between features and target
+- Good baseline model for comparison
+
+Both models were trained using an 80/20 train-test split.
 
 ### 3. Evaluation Metrics
 - **MAE**: Mean Absolute Error
