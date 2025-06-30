@@ -1,10 +1,10 @@
-# 🏠 House Price Prediction using Machine Learning
+# House Price Prediction using Machine Learning
 
 This project uses Machine Learning to predict house prices in the United States. The model is built using the **USA Housing Dataset** and implemented with the **Decision Tree Regressor** from the Scikit-learn library in Python.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Filename**: `USA Housing Dataset.csv`
 - **Number of Records**: Approximately *N* rows (update with actual count)
@@ -14,7 +14,7 @@ This project uses Machine Learning to predict house prices in the United States.
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 ### 1. Data Preprocessing
 - Removed irrelevant columns such as `date`, `street`, `city`, `statezip`, `country`
@@ -43,7 +43,7 @@ Both models were trained using an 80/20 train-test split.
 
 ---
 
-## 📊 Sample Results
+## Sample Results
 
 ```text
 Mean Absolute Error (MAE): 72,583.45
